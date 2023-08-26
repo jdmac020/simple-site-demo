@@ -14,5 +14,6 @@ plugins:
   - react
 rules: {
     "semi": [2, "always"],
-    "no-console": [1]
+    "no-console": [1],
+    "indent": ["error", 2]
 }

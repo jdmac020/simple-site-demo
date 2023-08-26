@@ -1,6 +1,7 @@
-{   "compilerOptions": {
+{   
+  "compilerOptions": {
   "target": "es5",
-  "module": "commonjs",
+  "module": "CommonJS",
   "jsx": "react",
   "outDir": "./out",
   "rootDir": "./src",
@@ -8,9 +9,17 @@
   "esModuleInterop": true,
   "skipLibCheck": true,
   "forceConsistentCasingInFileNames": true,
+  "noImplicitAny": true,
+  "noImplicitThis": true,
+  "strictNullChecks": true,
   "lib": [
-       "es2018",
+       "es2022",
        "dom"
-   ]   
-}
+   ]
+  },
+  "exclude": [
+    "node_modules",
+    "dist",
+    "src/assets"
+  ]
 }
